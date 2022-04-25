@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+/* The Style */
+
+.done {
+	text-decoration: line-through;
+}
+
+.todo-add {
+	margin-top: 20px;
+}
+
+/* W3school codes */
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.drop-zone {
+	box-shadow: inset 0px 0px 0px 2px #00C;
+}
