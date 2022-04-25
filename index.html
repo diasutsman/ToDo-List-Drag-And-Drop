@@ -41,8 +41,8 @@
             <div id="completed" class="column" style="background-color: lightgreen;" ondrop="dropAdd(event)" ondragover="allowDrop(event)"></div>
         </div>
         <button type="button" title="Drop here to delete todo" class="btn btn-danger mt-5 delete-button" ondrop="dropDelete(event)" ondragover="allowDrop(event)"><i class="bi bi-trash3-fill"></i></button>
-        <form id="addTodo" class="">
-            <input type="text" class="todo-add w-100 p-1" placeholder="Add your todo here">
+        <form id="addTodo">
+            <input type="text" class="todo-add w-100 p-1" placeholder="Add your todo here" required aria-required="Please don't leave todo input empty" oninvalid="this.setCustomValidity('Enter Todo Here')">
             <input type="submit" value="Add">
         </form>
     </div>
