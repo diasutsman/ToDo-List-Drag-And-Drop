@@ -1,6 +1,6 @@
 ## ToDo List
 
-Made this with HTML Drag And Drop Api hope you guys like it.
+Made this with HTML Drag and Drop API hope you guys like it.
 
 ## References
 
